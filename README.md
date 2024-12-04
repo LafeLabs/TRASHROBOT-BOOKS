@@ -1,3 +1,7 @@
+![](qrcode.png)
+
+![](qrcode-page.png)
+
 # [TRASH ROBOT BOOKS](https://github.com/LafeLabs/TRASHROBOT-BOOKS)
 
 ## [localhost/TRASHROBOT-BOOKS/](http://localhost/TRASHROBOT-BOOKS)
