@@ -1,0 +1,6 @@
+{
+    "server": "https://trashrobot.net/TRASHBOOK/GEOMETRON-MAGIC/",
+    "scrolls": [
+        "home"
+    ]
+}

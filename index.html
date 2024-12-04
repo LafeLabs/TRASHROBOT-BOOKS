@@ -1,0 +1,89 @@
+    <!doctype html>
+    <html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <!--
+    
+    TRASH MAGIC!
+    
+    
+       -->
+       <!--Stop Google:-->
+       <META NAME="robots" CONTENT="noindex,nofollow">
+           
+<META NAME="robots" CONTENT="noindex,nofollow">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP//AP///wANAP8A5Dz6ABueRwAAt/8A6BonABo86AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREREREREREREREAAAEREREREQCIgREREd3dwAAB3d3d3d3d3d3d3d3d3d3d3d3d3VVVVVVVQAFVVAAVVVQIiBRAiIBEQIAIBECAAERAgAgFgIABmYCIiBmAiIGZgIiIGYCIgZmYCIAaIAAMzMzAAiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+    
+       <title>TRASH ROBOT BOOKS</title>    
+    
+       <script src = "trashmagic.js"></script>
+       <link rel="stylesheet" href="trashmagic.css">
+       
+       <script src = "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    </head>
+    <body>    
+
+    <div id = "qrcode"></div>
+
+<a href = "../">UP A LEVEL</a>
+
+<h1>TRASH ROBOT BOOK REPOSITORY</h1>
+
+<A HREF = "https://github.com/LafeLabs/TRASHROBOT-BOOKS">LINK TO REPOSITORY REPLICATOR SCROLL</A>
+
+<A HREF = "edit.html">EDITOR</A>
+
+<A HREF = "readme.html">LOCAL README COPY</A>
+
+<h1>TRASH MAGIC MANIFESTO AND ACTION COLORING BOOK</h1>
+
+<a href = "TRASH-MAGIC-MANIFESTO.pdf">TRASH-MAGIC-MANIFESTO.pdf</a>
+<a href = "https://www.lulu.com/shop/lafe-spietz/trash-magic-manifesto-and-action-coloring-book/paperback/product-1km4deev.html">LINK TO BUY BOUND HARD COPY</a>
+
+<h1>FIRST BOOK OF GEOMETRON</h1>
+
+<a href = "FIRST-BOOK-OF-GEOMETRON.pdf">LETTER SIZE PDF</a>
+<a href = "FIRST-BOOK-OF-GEOMETRON-6X9.pdf">6X9 PDF</a>
+<a href = "FIRST-BOOK-OF-GEOMETRON/">SELF-REPLICATING HTML TRASH MAGIC E-BOOK</a>
+<a href = "https://www.lulu.com/shop/lafe-spietz/geometron/paperback/product-qqk98g.html">LINK TO BUY BOUND HARD COPY</a>
+
+<h1>GEOMETRON MAGIC</h1>
+
+<A HREF = "GEOMETRON-MAGIC.pdf">GEOMETRON-MAGIC.pdf</A>
+<A HREF = "GEOMETRON-MAGIC/">SELF-REPLICATING HTML TRASH MAGIC BOOK</A>
+<A HREF = "https://www.lulu.com/en/us/shop/trash-robot/geometron-magic/paperback/product-y6p96w.html">LINK TO BUY BOUND HARD COPY</A>
+
+<H1>THE BOOK OF TRASH</H1>
+
+<A HREF = "TRASHBOOK/">THE BOOK OF TRASH SELF-REPLICATING E-BOOK</A>
+
+    <script>
+    
+    titles = document.getElementsByTagName("H1");
+    for(var index = 0;index < titles.length;index++){
+        rainbowstring(titles[index]);    
+    }
+    rainbow(document.getElementsByTagName("A"));
+    
+    codesquaresize = 170;
+    marginsize = 40;
+    fontsize = 12;
+    //globalurl = "http://www.trashrobot.org/qrcode.html";
+    globalurl = window.location.href;
+    qrcode = new QRCode(document.getElementById("qrcode"), {
+    	text: globalurl,
+    	width: codesquaresize,
+    	height: codesquaresize,
+    	colorDark : "#000000",
+    	colorLight : "#ffffff",
+    	correctLevel : QRCode.CorrectLevel.H
+    });
+    
+    
+    </script>
+    </body>
+    <style>
+    </style>
+    </html>
+    
+    

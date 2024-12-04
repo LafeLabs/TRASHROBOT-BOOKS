@@ -1,4 +1,6 @@
-# TRASH ROBOT BOOKS
+# [TRASH ROBOT BOOKS](https://github.com/LafeLabs/TRASHROBOT-BOOKS)
+
+## [localhost/TRASHROBOT-BOOKS/](http://localhost/TRASHROBOT-BOOKS)
 
 HOW TO REPLICATE:
 
